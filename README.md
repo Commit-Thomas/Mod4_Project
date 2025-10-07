@@ -30,35 +30,31 @@ This project analyzes hourly bike-share usage data to identify key demand driver
 
 ## 📈 Key Trends & Insights
 
-1. **Seasonal Peaks:** Highest usage in Summer/Fall. Maintenance should be scheduled in Spring/Winter.
-2. **Commuter Dominance:** 8–9 AM and 5–7 PM see sharp peaks—critical for operations and promotions.
-3. **Weather Effects:** Clear/misty days with low humidity yield highest ridership. Avoid promos during bad weather.
 
 ---
 
 ## 📊 Hypothesis Test Results
 
 ### Q1: Working vs. Non-Working Days
-- **Test**: Welch’s t-test, α = 0.05  
-- **Result**: t ≈ 4.10, p = 0.00004  
-- **95% CI**: [6.15, 17.45]  
-- **Decision**: Reject H₀  
-- **Practical Insight**: ~30 more rides/hour → staff accordingly.
+- **Test**:   
+- **Result**: 
+- **95% CI**:  
+- **Decision**:  
+- **Practical Insight**: 
 
 ### Q2: Seasonal Differences
-- **Test**: One-way ANOVA, F ≈ 50, p < 0.001  
-- **Post-hoc**: Tukey HSD shows Spring > Fall > Winter  
-- **Decision**: Significant differences confirmed  
-- **Insight**: Use in seasonal planning, promos, and ops scheduling.
-
+- **Test**: 
+- **Post-hoc**: 
+- **Decision**: 
+- **Insight**: 
 ---
 
 ## 🧪 Simulated A/B Test
 
 - **Setup**: Pre (Aug 4–31) vs. Post (Sep 1–28)
 - **Stratification**: Weekday × Hour × Weather
-- **Result**: +44 rides (avg), p = 0.12 → *Not statistically significant*
-- **Recommendation**: Expand test duration/sample size.
+- **Result**: 
+- **Recommendation**: 
 
 ---
 
@@ -81,7 +77,7 @@ This project analyzes hourly bike-share usage data to identify key demand driver
 ---
 
 ## 📁 Files in This Repo
-- `notebooks/`: Jupyter notebooks for EDA, testing, and modeling.
+- `slides/`: presention with findings and insights.
 - `data/`: Cleaned and raw datasets.
-- `figures/`: All visualizations used in analysis.
+- `notebooks/`: Jupyter notebooks for EDA, testing, and modeling.
 - `README.md`: Project overview and conclusions.
