@@ -67,13 +67,10 @@ This project analyzes hourly bike-share usage data to identify key demand driver
 ## ⚖️ Ethics & Limitations
 
 ### Limitations
-- Observational data may include hidden confounders.
-- Some statistical assumptions (normality, equal variance) may be weak.
+- 
 
 ### Ethics
-- Risk of bias: commuting focus may neglect casual/weekend riders.
-- Equity in service: Avoid systematic disadvantages in underserved areas.
-
+- 
 ---
 
 ## 📁 Files in This Repo
