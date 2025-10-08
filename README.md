@@ -43,14 +43,14 @@ Alternative hypothesis (H1): At least one seasonal mean is different.
 ## 📈 Key Trends & Insights
 
 <img width="757" height="378" alt="Screenshot 2025-10-08 at 2 50 49 PM" src="https://github.com/user-attachments/assets/863ee8e9-46b9-4bff-8e56-fc29653334b3" />
--
--
+- 
+- 
 <img width="755" height="566" alt="Screenshot 2025-10-08 at 2 51 24 PM" src="https://github.com/user-attachments/assets/0e7103b3-171e-4abf-a80a-f8cec1419276" />
--
--
+- 
+- 
 <img width="600" height="602" alt="Screenshot 2025-10-08 at 2 53 36 PM" src="https://github.com/user-attachments/assets/d7db07a9-ee45-4f1a-91f8-4d300c646d30" />
--
--
+- 
+- 
 
 ---
 
