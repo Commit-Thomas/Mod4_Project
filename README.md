@@ -33,13 +33,13 @@ This project analyzes hourly bike-share usage data to identify key demand driver
 - Less clear weather correlates with lower average ridership
 - Clear weather has >200 Average riders compared to heavy snow/rain with < 100
 <img width="600" height="602" alt="Screenshot 2025-10-08 at 2 53 36 PM" src="https://github.com/user-attachments/assets/d7db07a9-ee45-4f1a-91f8-4d300c646d30" />
-- 
-- 
+- Most riders are from registered users with 81.2% comapared to casual users making up the remaining 18.8%
+- People who rode a bikes are likely to be repeat users so they register
 
 ---
 
 ### Hypothesis Testing
-- **Q1**: Working vs. non-working day ride counts → *Welch's t-test*
+### Q1: Working vs. Non-Working Days
 - Hypotheses:
 
 Null hypothesis (H0): Mean hourly rides on working and non-working days are equal.
@@ -50,7 +50,7 @@ Alternative hypothesis (H1): Mean hourly rides on working and non-working days d
 
 <img width="754" height="566" alt="Screenshot 2025-10-08 at 3 14 16 PM" src="https://github.com/user-attachments/assets/e931a467-931a-4e41-9dd7-eca3ef76ba3a" />
 
-### Q1: Working vs. Non-Working Days
+
 - **Test**:   Welch’s t-test
 - **Result**: p-value = 0.00004
 - **95% CI**:  (6.15, 17.45)
