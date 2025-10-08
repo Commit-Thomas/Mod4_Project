@@ -34,7 +34,7 @@ Null hypothesis (H0): All seasonal means are equal (no difference in average hou
 
 Alternative hypothesis (H1): At least one seasonal mean is different.
 
-### ## 🚴 A/B Test — Commuter Hour Ridership
+### 🚴 A/B Test — Commuter Hour Ridership
 
 **Objective:**  
 Measure the impact of an app feature (launched on *2012-09-01*) on weekday evening (17:00–19:00) ridership during good weather.
@@ -53,6 +53,7 @@ Measure the impact of an app feature (launched on *2012-09-01*) on weekday eveni
 Data was stratified by `(weekday × hour)` and matched by truncating to equal sample sizes across time slots. This ensured balanced groups and fair comparison.
 
 **Balance Check**
+
 <img width="411" height="312" alt="Screenshot 2025-10-08 at 6 58 55 PM" src="https://github.com/user-attachments/assets/a27ff19a-9677-48fb-844f-88595777e585" />
 
 
