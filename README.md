@@ -64,6 +64,8 @@ Alternative hypothesis (H1): At least one seasonal mean is different.
 This pattern reflects likely commuter behavior and should guide weekday-focused operational planning and targeted pricing or promotional strategies.
 
 ### Q2: Seasonal Differences
+<img width="764" height="583" alt="Screenshot 2025-10-08 at 3 23 23 PM" src="https://github.com/user-attachments/assets/0b40132b-552a-4009-9b69-84d2903bb138" />
+
 - **Test**: One-way ANOVA
 - **Post-hoc**: TukeyHSD
 - **Decision**: Reject the null hypothesis!
