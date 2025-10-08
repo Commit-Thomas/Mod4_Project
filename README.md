@@ -34,9 +34,42 @@ Null hypothesis (H0): All seasonal means are equal (no difference in average hou
 
 Alternative hypothesis (H1): At least one seasonal mean is different.
 
-### Simulated A/B Test
-- Feature launch impact on 17–19h commuter ridership.
-- Stratified by weekday × hour × weather for control of confounders.
+### ## 🚴 A/B Test — Commuter Hour Ridership
+
+**Objective:**  
+Measure the impact of an app feature (launched on *2012-09-01*) on weekday evening (17:00–19:00) ridership during good weather.
+
+**Eligibility Criteria:**  
+- `workingday == 1`  
+- `hr ∈ {17, 18, 19}`  
+- `weathersit ∈ {1, 2}`  
+- `hum ≤ 0.70`
+
+**Windows:**  
+- **Pre (Group A):** 2012-08-04 → 2012-08-31  
+- **Post (Group B):** 2012-09-01 → 2012-09-28  
+
+**Design:**  
+Data was stratified by `(weekday × hour)` and matched by truncating to equal sample sizes across time slots. This ensured balanced groups and fair comparison.
+
+**Balance Check**
+<img width="411" height="312" alt="Screenshot 2025-10-08 at 6 58 55 PM" src="https://github.com/user-attachments/assets/a27ff19a-9677-48fb-844f-88595777e585" />
+
+
+**Test:**  
+- **Paired t-test**  
+- **Null:** No difference in avg. hourly rides  
+- **α = 0.05**
+
+**Results:**  
+- **p-value:** 0.0006  
+- **95% CI:** [-63.6, -18.7]  
+- **Mean Increase:** +41.15 rides/hour  
+- **Cohen’s d:** 0.30 (small–medium)
+
+✅ **Statistically and practically significant** (~15% lift).  
+Suggests increased demand likely due to the feature — may warrant operational changes (e.g., staffing, fleet availability).
+
 
 ---
 
@@ -101,7 +134,9 @@ This change could meaningfully affect staffing requirements, fleet sizing and re
 ## ⚖️ Ethics & Limitations
 
 ### Limitations
-- 
+- Doesn't include pricing model
+- Dates only range from 2011 - 2012
+- season date range is incorrect
 
 ### Ethics
 - 
