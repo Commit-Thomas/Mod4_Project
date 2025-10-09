@@ -121,6 +121,34 @@ Suggests increased demand likely due to the feature — may warrant operational 
 ## ✅ Recommendations
 
 
+### 👩‍💼 Product Manager
+- **Invest in feature development that supports commuter behavior**
+  - A/B test showed a **+41.15 rides/hour** increase after feature launch.
+  - Prioritize features aimed at weekday evening rides (17:00–19:00)
+- **Support the registered user base**
+  - With ~81% of rides from registered users, optimize for retention (e.g., loyalty rewards, referrals)
+- **Run additional experiments**
+  - Continue controlled A/B testing to evaluate product changes over time
+
+---
+
+### 🛠️ Operations Lead
+- **Prioritize commuter peak hours**
+  - Focus staffing, bike rebalancing, and maintenance during 8 a.m. and 5 p.m. peaks.
+- **Implement weather-based resource planning**
+  - Clear weather = high demand; adjust fleet and station support accordingly
+- **Plan for seasonal fluctuations**
+  - Use seasonal trends to shift operational focus (e.g., more bikes in summer/fall)
+
+---
+
+### 📣 Marketing Lead
+- **Target weekday commuters**
+  - Use promotions and messaging during high-traffic windows (morning/evening)
+- **Design seasonal campaigns**
+  - Create special promotions in underperforming seasons identified via ANOVA results
+- **Leverage weather**
+  - Run weather-sensitive promotions
 
 ---
 
@@ -132,7 +160,8 @@ Suggests increased demand likely due to the feature — may warrant operational 
 - season date range is incorrect
 
 ### Ethics
-- 
+- dont over prioitize peak hour commuters
+- dont over prioritize registered users
 ---
 
 ## 📁 Files in This Repo
