@@ -160,8 +160,8 @@ Suggests increased demand likely due to the feature — may warrant operational 
 - season date range is incorrect
 
 ### Ethics
-- dont over prioitize peak hour commuters
-- dont over prioritize registered users
+- Dont over prioitize peak hour commuters
+- Dont over prioritize registered users
 ---
 
 ## 📁 Files in This Repo
