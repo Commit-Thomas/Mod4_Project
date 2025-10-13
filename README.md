@@ -1,4 +1,5 @@
 # 🚲 Bike Share Demand Analysis
+by Thomas Segal
 
 ## 🧩 Business Problem & Stakeholders
 
