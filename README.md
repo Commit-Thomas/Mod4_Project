@@ -5,6 +5,16 @@ by Thomas Segal
 
 This project analyzes hourly bike-share usage data to identify key demand drivers and guide decisions across product, operations, and marketing teams.
 
+## ⭐ Highlights
+
+- **Commuter-driven demand:** Strong peaks at **8 a.m.** and **5 p.m.**
+- **Weather impact:** Clear days see roughly **2× higher ridership** than heavy rain/snow.
+- **User base:** **81%** of rides come from registered users.
+- **Working-day effect:** **+6–17 rides/hour** on working days (statistically significant).
+- **Seasonal differences:** ANOVA confirms meaningful seasonal variation in demand.
+- **Feature lift:** New app feature generated a **+41 rides/hour** increase during evening commuter hours.
+
+
 **Stakeholders:**
 - **Product Manager**: Rider behavior & feature testing.
 - **Operations Lead**: Staffing, rebalancing, maintenance planning.
